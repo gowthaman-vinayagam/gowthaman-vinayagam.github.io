@@ -1,0 +1,209 @@
+body{
+    color: #000;
+}
+@font-face {
+    font-family: "graphik, san-serif";
+    src: url("fonts/GraphikLight.otf") format("opentype");
+}
+@font-face {
+    font-family: "graphik, san-serif";
+    src: url("fonts/GraphikRegular.otf") format("opentype");
+}
+@font-face {
+    font-family: "graphik, san-serif";
+    src: url("fonts/GraphikMedium.otf") format("opentype");
+}
+@font-face {
+    font-family: "graphik, san-serif";
+    src: url("fonts/GraphikBold.otf") format("opentype");
+}
+
+
+
+.header{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+}
+.header_wrapper{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px 0px;
+}
+.header_logo h1{
+   font-family: "graphik, san-serif";
+   font-size: 5rem;
+}
+.header_nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.header_nav a{
+    color: #000;
+    font-family: "graphik, san-serif";
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+.header_nav a:hover{
+    opacity: 0.6;
+}
+.home_banner{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+}
+.home_banner_wrapper{
+    width: 60%;
+}
+.home_banner_wrapper h1{
+    font-size: 5rem;
+}
+.home_banner_wrapper h4{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.home_banner_wrapper a{
+    color: #000;
+    font-size: 1.4rem;
+}
+.home_banner_wrapper a:hover{
+    opacity: 0.6;
+}
+.section_gap{
+    padding: 100px 0px;
+}
+.portfolio{
+    width: 100%;
+    height: auto;
+}
+.portfolio_title{
+    width: 60%;
+}
+.subtitle{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.title{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.portfolio_grid{
+    width: 100%;
+    height: auto;
+}
+.portfolio_grid_wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+}
+.portfolio_grid_wrapper .portfolio_item{
+    width: 100%;
+    height: auto;
+}
+/* .portfolio_grid_wrapper .portfolio_item:nth-of-type(even){
+    margin-top: 50px;
+} */
+.portfolio_item a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.portfolio_nav_button a{
+    font-size: 1.4rem;
+    color: #000;
+    font-weight: 400;
+}
+.portfolio_nav_button a:hover{
+    opacity: 0.6;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background: #000;
+}
+.footer_wrapper{
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_wrapper .footer_mail_wrapper h2{
+    font-size: 5rem;
+    color: #fff;
+}
+.footer_wrapper .footer_mail_wrapper a{
+    font-size: 2rem;
+    color: #999;
+    text-decoration: none;
+}
+.footer_wrapper .footer_mail_wrapper a:hover{
+    opacity: 0.6;
+}
+.social_media .social_media_wrapper h5{
+    color: #fff;
+}
+.social_media .social_media_wrapper .social_link_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.social_media .social_media_wrapper .social_link_wrapper a svg{
+    width: 15px;
+    height: 15px;
+}
+.social_media .social_media_wrapper .social_link_wrapper a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #999;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+.social_media .social_media_wrapper .social_link_wrapper a:hover{
+    background: #999;
+}
+.social_media .social_media_wrapper .social_link_wrapper a:hover svg path{
+    fill: #000;
+}
+.social_media .social_media_wrapper .social_link_wrapper a svg path{
+    fill: #999;
+}
+.about{
+    width: 100%;
+    height: 100%;
+    padding: 150px 0px;
+    background: #efefef;
+}
+.about_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.about_icon_wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+}
+.about_icon_wrapper .about_icon_item .about_icon_item_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.about_icon_wrapper .about_icon_item .about_icon_item_wrapper svg{
+    width: 150px;
+    height: auto;
+}
+.paragraph{
+    font-size: 1.6rem;
+}

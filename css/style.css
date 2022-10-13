@@ -254,6 +254,9 @@ body{
     opacity: 1;
     visibility: visible;
 }
+.text_animation{
+    overflow: hidden;
+}
 
 @media screen and (max-width: 1024px) {
     .about_icon_wrapper{
@@ -321,6 +324,36 @@ body{
     }
     #back_to_top{
         display: none;
+    }
+}
+@media screen and (max-width: 320px) {
+    .home_banner_wrapper{
+        width: 80%;
+    }
+    .home_banner_wrapper h1 {
+        font-size: 2.5rem;
+    }
+    .header_nav {
+        gap: 20px;
+    }
+    .header_nav a {
+        font-size: 1rem;
+    }
+    .title {
+        font-size: 1.3rem;
+    }
+    .subtitle {
+        font-size: 1.4rem;
+    }
+    .footer_wrapper .footer_mail_wrapper h2{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .footer_wrapper .footer_mail_wrapper a{
+        font-size: 1.1rem;
+    }
+    .footer_wrapper{
+        padding: 50px 0px;
     }
 }
 

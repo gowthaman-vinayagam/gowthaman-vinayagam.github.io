@@ -1,0 +1,691 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none !important;
+}
+.title{
+    font-size: 2.5rem;
+    color: #0A1954;
+    font-weight: 700;
+}
+header{
+    z-index: 2;
+}
+.header_links{
+    gap: 50px;
+}
+.header_links ul{
+    list-style-type: none;
+    gap: 50px;
+}
+.header_links ul li a:hover{
+    opacity: 0.7;
+}
+.button{
+    background: #fff;
+    border: none;
+    border-radius: 15px;
+    color: #0550F7;
+    padding: 10px 25px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+.button:hover{
+    background: #0550F7;
+    color: #fff;
+}
+.banner{
+    background-image: url('../images/banner_image.jpg');
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+}
+.button_active{
+    background: #0550F7;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 30px;
+    color: #fff;
+    font-weight: 500;
+    border: 2px solid #0550F7;
+    transition: all 0.3s ease-in-out;
+}
+.button_active:hover{
+    background: #fff;
+    color: #0550F7;
+}
+.header_logo a:hover{
+    opacity: 0.7;
+}
+.header_links ul li a.active{
+    color: #0550F7;
+}
+.header_links ul li a{
+    text-decoration: none;
+    color: #0A1954;
+    font-weight: 500;
+}
+.banner_main_wrapper{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner_content h1{
+    color: #fff;
+    font-size: 4rem;
+    line-height: 1.4;
+}
+.booking_form{
+    padding: 50px;
+    border: 3px solid #CAD6EC;
+    border-radius: 30px;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    box-shadow: 0px 50px 94px 0px rgba(0, 61, 153, 0.06);
+}
+.section_gap{
+    padding: 100px;
+    width: 100%;
+}
+.introduction_wrapper {
+    width: 80%;
+    margin: 0 auto;
+    gap: 70px;
+}
+.intro_img_container, .intro_content_container{
+    width: 50%;
+}
+.intro_img_container img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+.intro_content_container h2{
+    font-size: 2.5rem;
+    color: #0A1954;
+    font-weight: 700;
+}
+.intro_content_container p{
+    color: #7783B0;
+}
+.outline_button{
+    background: #fff;
+    border: 2px solid #0550F7;
+    border-radius: 15px;
+    padding: 15px 30px;
+    color: #0550F7;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.outline_button:hover {
+    background: #0550F7;
+    color: #fff;
+}
+.favorite_places{
+    position: relative;
+}
+.favorite_places:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url(../images/dots.png);
+    width: 100px;
+    height: 150px;
+    gap: 10px;
+}
+.favorite_places_heading_container h2{
+    max-width: 400px;
+}
+.favorite_places_img_container img {
+    width: 250px;
+    margin-bottom: 20px;
+}
+.favorite_places_img_container h5{
+    text-align: center;
+    font-weight: 600;
+    color: #0A1954;
+}
+.mostpopular_places{
+    position: relative;
+    overflow-x: hidden;
+}
+.mostpopular_places:before{
+    content: '';
+    position: absolute;
+    right: -100px;
+    width: 500px;
+    height: 500px;
+    background:#0550F7;
+    z-index: -1;
+    border-radius: 50%;
+    top: 100px;
+}
+.mostpopular_places_title{
+    max-width: 400px;
+}
+.mostpopular_places_wrapper{
+    width: 80%;
+    margin: auto;
+}
+.mostpopular_places_item{
+    width: 33.33%;
+    box-shadow: 0px 50px 50px 0px rgb(0 61 153 / 5%);
+}
+.mostpopular_main_img{
+    width: 100%;
+}
+.mostpopular_places_wrapper {
+    gap: 40px;
+    position: relative;
+    z-index: 2;
+}
+.mostpopular_places_wrapper:after{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    right: -70px;
+    background: url(../images/dots_light.png);
+    z-index: -1;
+    top: 50px;
+}
+.mostpopular_content_wrapper{
+    background: #fff;
+}
+.mostpopular_content_wrapper h5{
+    margin-bottom: 15px;
+    color: #0A1954;
+    font-weight: 600;
+}
+.mostpopular_content_wrapper img{
+    width: 20px;
+}
+.mostpopular_detail{
+    margin-bottom: 30px;
+}
+.mostpopular_content_wrapper .button{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 130px;
+    border: 1px solid #0550F7;
+}
+.mostpopular_content_wrapper .button:hover{
+    background: #0550F7;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.mostpopular_detail  > div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.mostpopular_detail h6{
+    color: #0550F7;
+}
+.mostpopular_content_wrapper {
+    padding: 45px 20px 20px 20px !important;
+    margin-top: -25px;
+    border: 2px solid #0550F7;
+    border-radius: 0 0 20px 20px;
+}
+.mostpopular_places_item:hover .mostpopular_content_wrapper{
+    background: #0550F7;
+    color: #fff;
+    cursor: pointer;
+}
+.mostpopular_content_wrapper{
+    transition: all 0.2s ease-in-out;
+}
+.mostpopular_places_item:hover .mostpopular_content_wrapper svg path{
+    fill: #fff;
+}
+.mostpopular_places_item:hover .mostpopular_content_wrapper h6, .mostpopular_places_item:hover .mostpopular_content_wrapper h5{
+    color: #fff;
+}
+footer{
+    background: #0550F7;
+    position: relative;
+}
+footer:before{
+    content: '';
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../images/dot_white.png);
+}
+footer:after{
+    content: '';
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+    background: url(../images/dot_white.png);
+}
+.footer_child1{
+    padding: 80px 0px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.footer_child1 h2{
+    color: #fff;
+    font-weight: 600;
+    font-size: 3rem;
+}
+.circle_one{
+    position: absolute;
+    top: -50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #fff;
+    margin-left: 80px;
+}
+.circle_two{
+    position: absolute;
+    top: 50%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff;
+}
+.circle_three{
+    position: absolute;
+    top: 50px;
+    right: -160px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #fff;
+}
+.circle_four{
+    position: absolute;
+    top: 30%;
+    right: 130px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff;
+}
+footer{
+    overflow-x: hidden;
+}
+footer .container{
+    position: relative;
+}
+.footer_child1 p{
+    color: #fff;
+    width: 70%;
+    margin: auto;
+}
+.subfooter {
+    border-top: 1px solid rgb(206, 206, 206);
+}
+.subfooter_wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+.subfooter ul {
+    gap: 50px;
+}
+.subfooter ul li{
+    list-style-type: none;
+}
+.subfooter ul li a, .subfooter p{
+    color: #fff;
+}
+.subfooter ul li a:hover{
+    opacity: 0.7;
+}
+.blog_wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    position: relative;
+}
+.blog_wrapper:before{
+    content: '';
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../images/dots.png);
+    z-index: -1;
+    margin-left: -50px;
+    margin-top: 50px;
+}
+.blog_item{
+    overflow: hidden;
+}
+.blog_wrapper .blog_item img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.blog_item h6{
+    color: #0A1954;
+}
+.blog_item_hidden{
+    display: none;
+}
+.testimonial_item  img{
+    width: 50px;
+}
+.testimonial_item {
+    text-align: center;
+} 
+.testimonial_item_wrapper{
+    padding: 20px 40px;
+    border: 3px solid #0550F7;
+    border-radius: 20px;
+}
+.testimonial_item_wrapper img{
+    margin-bottom: 10px;
+}
+.testimonial_item_wrapper h5{
+    font-size: 1rem;
+    color: #0550F7;
+    margin-bottom: 5px;
+}
+.testimonial_item_wrapper h6{
+    font-size: 0.8rem;
+    color: #7783B0;
+}
+.testimonial_slider {
+    position: relative;
+}
+.testimonial_slider_wrapper {
+    padding-bottom: 50px;
+}
+.swiper-pagination{
+    position: absolute;
+    bottom: 0;
+}
+.testimonial_item, .swiper-slide {
+    opacity: 0.4;
+    transition: all 0.3s ease-in-out;
+    cursor: grab;
+}
+.swiper-slide-active{
+    opacity: 1;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active{
+    width: 12px;
+}
+#subscribe_form input{
+    width: 75%;
+    border: none;
+    padding: 20px;
+    background: transparent;
+}
+#subscribe_form input:focus{
+    outline: none;
+    box-shadow: inherit;
+}
+#subscribe_form button{
+    width: 25%;
+    border: 1px solid #0550F7;
+    background: #0550F7;
+    color: #fff;
+    border-radius: 40%;
+    border-radius: 40px;
+    transition: all 0.3s ease-in-out;
+}
+#subscribe_form button:hover{
+    background: #fff;
+    color: #0550F7;
+}
+#subscribe_form .input-group{
+    background: #fff;
+    padding: 5px;
+    border-radius: 50px;
+}
+.booking_widget_form label{
+    color: #0A1954;
+    font-weight: 600;   
+}
+.booking_widget_form select, .datepicker{
+    padding: 10px 40px 10px 20px;
+    border: 2px solid #CAD6EC;
+}
+.datepicker input, span, .input-group-text{
+    border: none !important;
+}
+.datepicker input:focus{
+    outline: none;
+    box-shadow: none;
+}
+select option{
+    color: #CAD6EC;
+}
+.fa-calendar:before{
+    color: #CAD6EC;
+}
+.form-control::placeholder{
+    color: #CAD6EC;
+}
+.booking_widget_wrapper{
+    gap: 30px;
+}
+.booking_widget_wrapper > div{
+    width: 25%;
+}
+select {
+    color: #CAD6EC !important;
+    font-size: 0.9rem !important;
+}
+.booking_count{
+    color: #CAD6EC;
+    border: 2px solid #CAD6EC;
+    padding: 7px 20px;
+    border-radius: 5px;
+    gap: 5px;
+}
+.booking_count input{
+    border: none;
+    max-width: 50px;
+}
+.booking_count input:focus{
+    outline: none;;
+}
+.booking_count button{
+    border: none;
+    padding: 5px 12px;
+    border-radius: 5px;
+}
+.booking_count button:hover{
+    background: #0550F7;
+    color: #fff;
+}
+#error_box{
+    color: #fff;
+}
+.form-select:focus {
+    outline: none;
+    box-shadow: none !important;
+    border-color: #CAD6EC !important;
+}
+
+@media screen and (min-width: 1800px) {
+    .mostpopular_places_wrapper{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .booking_form{
+        width: 100%;
+    }
+    .mostpopular_places_wrapper {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .booking_form {
+        padding: 30px;
+    }
+    .introduction_wrapper {
+        width: 90%;
+    }
+    .favorite_places_img_container img{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .booking_form {
+        bottom: 70px;
+    }
+    .mostpopular_places_wrapper{
+        width: 100%;
+    }
+    .introduction_wrapper{
+        width: 100%;
+    }
+    .blog_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .favorite_places_img_container img {
+        width: 120px;
+    }
+    .mostpopular_places_wrapper {
+        flex-direction: column;
+    }
+    .mostpopular_places_item{
+        width: 100%;
+    }
+    .circle_one, .circle_three{
+        width: 100px;
+        height: 100px;
+    }
+    .footer_child1 {
+        max-width: 450px;
+    }
+    .circle_two, .circle_four{
+        width: 50px;
+        height: 50px;
+    }
+    .circle_three{
+        right: -100px;
+    }
+    .subfooter_wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header_links ul, .header_links{
+        gap: 20px;
+    }
+    .booking_widget_wrapper{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .introduction_wrapper {
+        flex-direction: column;
+    }
+    .intro_img_container, .intro_content_container{
+        width: 100%;
+    }
+    .intro_content_container h2, .title{
+        font-size: 2rem;
+    }
+    .favorite_places_heading_container {
+        flex-direction: column;
+    }
+    .favorite_places .title{
+        margin-bottom: 20px;
+    }
+    .favorite_places .button_active{
+        margin-right: auto;
+    }
+    .favorite_places_img_container {
+        flex-wrap: wrap;
+    }
+    .favorite_places_img_container > div{
+        width: 50%;
+    }
+    .favorite_places:after, .mostpopular_places:before, .blog_wrapper:before, footer:before, footer:after, .circle_one, .circle_two, .circle_three, .circle_four, .mostpopular_places_wrapper:after{
+        display: none;
+    }
+    .favorite_places_img_container img{
+        margin: 0 auto;
+        display: block;
+    }
+    .favorite_places_img_container  > div {
+        margin-bottom: 20px;
+    }
+    .testimonial_slider {
+        padding: 0 50px !important;
+    }
+    .footer_child1 h2{
+        font-size: 2.5rem;
+    }
+    #subscribe_form input{
+        padding: 10px;
+    }
+    .footer_child1 {
+        max-width: 350px;
+    }
+    .subscribe_button{
+        font-size: 0.9rem;
+    }
+    .subfooter_wrapper{
+        width: 100%;
+    }
+    .subfooter ul{
+        gap: 20px;
+    }
+    .section_gap{
+        padding: 50px;
+    }
+    .blog_item h6{
+        line-height: 1.5;
+    }
+    .footer_child1 p{
+        width: 90%;
+    }
+    .banner_content h1{
+        font-size: 2.5rem;
+    }
+    .header_wrapper {
+        flex-direction: column;
+    }
+    .booking_form{
+        display: none;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .subfooter_wrapper ul{
+        padding-left: 0;
+    }
+    .header_links .button{
+        display: none;
+    }
+    .header_links ul{
+        padding-left: 0;
+    }
+    .header_links ul li a{
+        color: #fff ;
+    }
+    .header_wrapper {
+        gap: 20px;
+    }
+}
